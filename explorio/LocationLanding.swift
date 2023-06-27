@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LocationLanding: View {
     var body: some View {
-        Text("zcket no boom")
+        Text("zcket no boqom")
     }
 }
 

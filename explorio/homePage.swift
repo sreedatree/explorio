@@ -10,7 +10,7 @@ import SwiftUI
 struct homePage: View {
     var body: some View {
         VStack {
-            Text("mwahaha")
+            Text("mwahahaa")
             Image("earth")
                 .resizable()
                 .frame(width: 200.0, height: 200.0)
