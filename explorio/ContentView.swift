@@ -3,7 +3,7 @@
 //  explorio
 //
 //  Created by Scholar on 6/27/23.
-//assets-nhi
+//
 
 import SwiftUI
 
@@ -38,6 +38,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-// end of code
