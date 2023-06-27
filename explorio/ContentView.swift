@@ -11,19 +11,24 @@ struct ContentView: View {
     @State private var showDetails = false
     var body: some View {
         VStack {
-            Text("Welcome to Explorio!")
-                .font(.title)
+            Text("Welcome to")
+                .font(.largeTitle)
                 .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
-            Spacer()
+            Text("Explorio!")
+                .font(.largeTitle)
+                .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
+            
             Image("explorioLogo")
                 .resizable()
+                .padding(.top)
                 .frame(width: 300.0, height: 300.0)
-            Spacer()
-                .frame(width: 1.0)
-            Text("Explorio randomizes a location and provides information necessary for your travel plans")
+            
+            
+            Text("Explorio randomizes a location and provides information necessary for your travel plans.")
+                .font(.title3)
                 .multilineTextAlignment(.leading)
+                .padding(.top, 75.0)
             Spacer()
-                .frame(width: 1.0)
             
             Button("Get Started"){
                     self.showDetails = true
@@ -33,7 +38,7 @@ struct ContentView: View {
             
             
         }
-        .padding([.top, .leading, .trailing], 3.0)
+        .padding([.top, .leading, .trailing], 10.5)
     }
 }
 
