@@ -19,7 +19,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 300.0, height: 300.0)
             Spacer()
-                .frame(width: 1.0)
+                .frame(width: 2.0)
             
             Button("Get Started"){
                     self.showDetails = true
