@@ -20,6 +20,10 @@ struct ContentView: View {
                 .frame(width: 300.0, height: 300.0)
             Spacer()
                 .frame(width: 1.0)
+            Text("Explorio randomizes a location and provides information necessary for your travel plans")
+                .multilineTextAlignment(.leading)
+            Spacer()
+                .frame(width: 1.0)
             
             Button("Get Started"){
                     self.showDetails = true
@@ -29,7 +33,7 @@ struct ContentView: View {
             
             
         }
-        .padding()
+        .padding([.top, .leading, .trailing], 3.0)
     }
 }
 
