@@ -3,7 +3,7 @@
 //  explorio
 //
 //  Created by Scholar on 6/27/23.
-//ougyouyhjklkjy7g87jkgk.
+//
 
 import SwiftUI
 
