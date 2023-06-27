@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD8AB30F2A4B2DD90049DC14 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB30E2A4B2DD90049DC14 /* homePage.swift */; };
+		BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */; };
 		BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA44352A4B1BD400054D51 /* explorioApp.swift */; };
 		BDEA44382A4B1BD400054D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA44372A4B1BD400054D51 /* ContentView.swift */; };
 		BDEA443A2A4B1BD500054D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEA44392A4B1BD500054D51 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		BD8AB30E2A4B2DD90049DC14 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLanding.swift; sourceTree = "<group>"; };
 		BDEA44322A4B1BD400054D51 /* explorio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = explorio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEA44352A4B1BD400054D51 /* explorioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explorioApp.swift; sourceTree = "<group>"; };
 		BDEA44372A4B1BD400054D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				BDEA44352A4B1BD400054D51 /* explorioApp.swift */,
 				BDEA44372A4B1BD400054D51 /* ContentView.swift */,
 				BD8AB30E2A4B2DD90049DC14 /* homePage.swift */,
+				BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */,
 				BDEA44392A4B1BD500054D51 /* Assets.xcassets */,
 				BDEA443B2A4B1BD500054D51 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				BD8AB30F2A4B2DD90049DC14 /* homePage.swift in Sources */,
 				BDEA44382A4B1BD400054D51 /* ContentView.swift in Sources */,
+				BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */,
 				BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
