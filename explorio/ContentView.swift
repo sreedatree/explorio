@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showDetails = false
     var body: some View {
         VStack {
             Text("Welcome to Explorio!")
@@ -19,6 +20,10 @@ struct ContentView: View {
                 .frame(width: 300.0, height: 300.0)
             Spacer()
                 .frame(width: 1.0)
+            
+            Button("Get Started"){
+                    self.showDetails = true
+                  }//end of button
                 
                 
             
