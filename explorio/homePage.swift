@@ -13,7 +13,8 @@ struct homePage: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("mwahahawewew")
+                Text("mwahahaweww")
+                Text("the world be spinning")
                 Image("earth")
                     .resizable()
                     .frame(width: 200.0, height: 200.0)
