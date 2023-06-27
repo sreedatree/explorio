@@ -6,12 +6,30 @@
 //
 
 import SwiftUI
-
 struct login_page: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        @State var showDetails = true
+            ZStack(alignment: .topLeading){
+                VStack (alignment: .leading){
+                    Button("<-- Back"){
+                        
+                    }
+                    VStack{
+                        Image("star")
+                        Button("Login"){
+                            
+                        }//end of login button
+                        
+                        Button("Sign Up"){
+                            
+                        }//end of sign up button
+                        
+                        
+                    }//end of vstack
+                }//end of vstack
+            }//end of zstack
+        }
     }
-}
 
 struct login_page_Previews: PreviewProvider {
     static var previews: some View {
