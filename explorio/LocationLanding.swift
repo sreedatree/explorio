@@ -9,7 +9,11 @@ import SwiftUI
 
 struct LocationLanding: View {
     var body: some View {
-        Text("zcket no boqom")
+        VStack {
+            Text("Welcome to")
+            Text("Mumbai, India")
+            
+        }
     }
 }
 
