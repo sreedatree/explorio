@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD89C9482A4B3417007E7208 /* login page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89C9472A4B3417007E7208 /* login page.swift */; };
 		BD8AB30F2A4B2DD90049DC14 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB30E2A4B2DD90049DC14 /* homePage.swift */; };
 		BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */; };
 		BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA44352A4B1BD400054D51 /* explorioApp.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD89C9472A4B3417007E7208 /* login page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "login page.swift"; sourceTree = "<group>"; };
 		BD8AB30E2A4B2DD90049DC14 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLanding.swift; sourceTree = "<group>"; };
 		BDEA44322A4B1BD400054D51 /* explorio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = explorio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,7 @@
 			children = (
 				BDEA44352A4B1BD400054D51 /* explorioApp.swift */,
 				BDEA44372A4B1BD400054D51 /* ContentView.swift */,
+				BD89C9472A4B3417007E7208 /* login page.swift */,
 				BD8AB30E2A4B2DD90049DC14 /* homePage.swift */,
 				BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */,
 				BDEA44392A4B1BD500054D51 /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD8AB30F2A4B2DD90049DC14 /* homePage.swift in Sources */,
+				BD89C9482A4B3417007E7208 /* login page.swift in Sources */,
 				BDEA44382A4B1BD400054D51 /* ContentView.swift in Sources */,
 				BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */,
 				BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */,
