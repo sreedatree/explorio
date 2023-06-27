@@ -3,8 +3,7 @@
 //  explorio
 //
 //  Created by Scholar on 6/27/23.
-//hiku
-
+//balls
 import SwiftUI
 
 struct ContentView: View {
