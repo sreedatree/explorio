@@ -13,7 +13,7 @@ struct homePage: View {
             Image("earth")
                 .resizable()
                 .frame(width: 200.0, height: 200.0)
-            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+            NavigationLink(destination: LocationLanding()) {
                 /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Label Content@*/Text("Navigate")/*@END_MENU_TOKEN@*/
             }
                 
