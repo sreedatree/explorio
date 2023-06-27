@@ -3,18 +3,19 @@
 //  explorio
 //
 //  Created by Scholar on 6/27/23.
-//hi
-//hello-nhi
+//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Welcome to Explorio!")
+                .font(.title)
+                .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
+            Spacer()
+            
+            
         }
         .padding()
     }
@@ -25,3 +26,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+// end of code
