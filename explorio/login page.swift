@@ -9,9 +9,7 @@ import SwiftUI
 struct login_page: View {
     var body: some View {
         @State var showDetails = true
-
-        
-           
+        NavigationStack{
                 ZStack(alignment: .topLeading){
                     VStack (alignment: .leading){
                       
@@ -22,8 +20,11 @@ struct login_page: View {
                             }//end of login button
                             
                             Button("Sign Up"){
-                                }
-                            
+                            }
+                            NavigationLink(destination: homePage()) {
+                                Text("Continue as Guest")}
+                        }
+            
                             
                             
                             
