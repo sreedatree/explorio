@@ -1,7 +1,7 @@
 //
 //  explorioApp.swift
 //  explorio
-//uh
+//
 //  Created by Scholar on 6/27/23.
 //
 
