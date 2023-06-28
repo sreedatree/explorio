@@ -10,7 +10,7 @@ import SwiftUI
 struct LocationLanding: View {
     @State private var expanded = true
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack {
             Text("**Welcome to**")
                 .font(.largeTitle)
                 .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
