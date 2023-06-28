@@ -11,10 +11,10 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             VStack {
-                Text("Welcome to")
+                Text("**Welcome to**")
                     .font(.largeTitle)
                     .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
-                Text("Explorio!")
+                Text("**Explorio!**")
                     .font(.largeTitle)
                     .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
                 
@@ -25,7 +25,7 @@ struct ContentView: View {
                 
                 
                 Text("Explorio randomizes a location and provides information necessary for your travel plans.")
-                    .font(.title3)
+                    .font(.system(size: 20))
                     .multilineTextAlignment(.leading)
                     .padding(.top, 75.0)
                 Spacer()
