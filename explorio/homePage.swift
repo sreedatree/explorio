@@ -28,7 +28,7 @@ struct homePage: View {
                     Text("Randomize Location")
                 }
                NavigationLink(destination:
-                    LocationLanding()) {
+                    searchPage()) { // 
                    Text("Search Location")
                }
                 

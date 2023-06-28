@@ -10,6 +10,7 @@
 		BD89C9482A4B3417007E7208 /* login page.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89C9472A4B3417007E7208 /* login page.swift */; };
 		BD8AB30F2A4B2DD90049DC14 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB30E2A4B2DD90049DC14 /* homePage.swift */; };
 		BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */; };
+		BDA8847C2A4C84BC0015124F /* searchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA8847B2A4C84BC0015124F /* searchPage.swift */; };
 		BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA44352A4B1BD400054D51 /* explorioApp.swift */; };
 		BDEA44382A4B1BD400054D51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEA44372A4B1BD400054D51 /* ContentView.swift */; };
 		BDEA443A2A4B1BD500054D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEA44392A4B1BD500054D51 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		BD89C9472A4B3417007E7208 /* login page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "login page.swift"; sourceTree = "<group>"; };
 		BD8AB30E2A4B2DD90049DC14 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 		BD8AB3102A4B34D20049DC14 /* LocationLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLanding.swift; sourceTree = "<group>"; };
+		BDA8847B2A4C84BC0015124F /* searchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchPage.swift; sourceTree = "<group>"; };
 		BDEA44322A4B1BD400054D51 /* explorio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = explorio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEA44352A4B1BD400054D51 /* explorioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explorioApp.swift; sourceTree = "<group>"; };
 		BDEA44372A4B1BD400054D51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		BDEA44342A4B1BD400054D51 /* explorio */ = {
 			isa = PBXGroup;
 			children = (
+				BDA8847B2A4C84BC0015124F /* searchPage.swift */,
 				BDEA44352A4B1BD400054D51 /* explorioApp.swift */,
 				BDEA44372A4B1BD400054D51 /* ContentView.swift */,
 				BD89C9472A4B3417007E7208 /* login page.swift */,
@@ -150,6 +153,7 @@
 				BD89C9482A4B3417007E7208 /* login page.swift in Sources */,
 				BDEA44382A4B1BD400054D51 /* ContentView.swift in Sources */,
 				BD8AB3112A4B34D20049DC14 /* LocationLanding.swift in Sources */,
+				BDA8847C2A4C84BC0015124F /* searchPage.swift in Sources */,
 				BDEA44362A4B1BD400054D51 /* explorioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
