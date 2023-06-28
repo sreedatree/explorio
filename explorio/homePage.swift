@@ -13,7 +13,9 @@ struct homePage: View {
     var body: some View {
         NavigationStack {
             VStack {
-               Image("earth")
+                Text("Ready for Your Next Adventure?")
+                    .font(.system(size: 18))
+                Image("earth")
                     .resizable()
                     .frame(width: 200.0, height: 200.0)
                     .rotationEffect(Angle(degrees: rotateangle))
