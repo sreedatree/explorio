@@ -13,10 +13,19 @@ struct LocationLanding: View {
             Text("**Welcome to**")
                 .font(.largeTitle)
                 .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
-                .padding()
+            .padding()
             Text("Mumbai, India")
                 .font(.title)
-            
+            Spacer()
+//list here: i forgot whatev that compiling thing was
+            ZStack {
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(Color(red: 0.375, green: 0.425, blue: 0.217))
+                Text("Things To Do")
+                    .foregroundColor(.white)
+            }
+            .frame(width:200,height:50)
+            .font(.system(size:20, design:.monospaced))
         }
     }
 }
