@@ -34,6 +34,8 @@ struct ContentView: View {
                 
                 NavigationLink(destination: login_page()) {
                     Text("Get Started")}
+                .frame(width: 393, height: 70)
+                .background(Color.teal)
                 
                 
             }

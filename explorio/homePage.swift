@@ -13,9 +13,7 @@ struct homePage: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("mwahahaweww")
-                Text("the world be spinning")
-                Image("earth")
+               Image("earth")
                     .resizable()
                     .frame(width: 200.0, height: 200.0)
                     .rotationEffect(Angle(degrees: rotateangle))
@@ -29,12 +27,15 @@ struct homePage: View {
                 NavigationLink(destination: LocationLanding()) {
                     Text("Randomize Location")
                 }
+               NavigationLink(destination:
+                    LocationLanding()) {
+                   Text("Search Location")
+               }
                 
             }
         }
         }
     }
-
 struct homePage_Previews: PreviewProvider {
     static var previews: some View {
         homePage()
