@@ -26,10 +26,18 @@ struct homePage: View {
                     
                 NavigationLink(destination: LocationLanding()) {
                     Text("Randomize Location")
+                        .foregroundColor(Color.white)
+                        .frame(width: 200, height: 50)
+                        .background(Color(red: 0.375, green: 0.425, blue: 0.217))
+                        .cornerRadius(10)
                 }
-               NavigationLink(destination:
-                    searchPage()) { //
+        
+               NavigationLink(destination: searchPage()) {
                    Text("Search Location")
+                       .foregroundColor(Color.white)
+                       .frame(width: 200, height: 50)
+                       .background(Color(red: 0.375, green: 0.425, blue: 0.217))
+                       .cornerRadius(10)
                }
                 
             }
