@@ -3,7 +3,7 @@
 //  explorio
 //
 //  Created by Scholar on 6/27/23.
-//
+//hi
 
 import SwiftUI
 
@@ -28,7 +28,7 @@ struct homePage: View {
                     Text("Randomize Location")
                 }
                NavigationLink(destination:
-                    searchPage()) { // 
+                    searchPage()) { //
                    Text("Search Location")
                }
                 
