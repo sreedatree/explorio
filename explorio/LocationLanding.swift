@@ -14,7 +14,7 @@ struct LocationLanding: View {
             Text("**Welcome to**")
                 .font(.largeTitle)
                 .foregroundColor(Color(red: 0.375, green: 0.425, blue: 0.217))
-            .padding()
+                .padding(.top)
             Text("Mumbai, India")
                 .font(.title)
             
